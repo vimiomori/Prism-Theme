@@ -26,6 +26,10 @@
 		filter: invert(-10%) sepia(10%) saturate(2635%) hue-rotate(205deg) brightness(94%) contrast(97%);
 	}
 
+	&.pt-color-scheme-blueDolphin-dt audio {
+		filter: invert(-10%) sepia(10%) saturate(2635%) hue-rotate(205deg) brightness(94%) contrast(97%);
+	}
+
 	&.pt-color-scheme-pine-dt audio {
 		filter: invert(-11%) sepia(15%) saturate(1727%) hue-rotate(82deg) brightness(91%) contrast(91%);
 	}

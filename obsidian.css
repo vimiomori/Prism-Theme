@@ -723,6 +723,18 @@ body.theme-dark.pt-color-scheme-indigo-dt {
   --color-pink-base-h: 303;
   --color-grey-base-h: 233;
 }
+body.theme-dark.pt-color-scheme-blueDolphin-dt {
+  --color-red-base-h: 345;
+  --color-orange-base-h: 12;
+  --color-yellow-base-h: 36;
+  --color-green-base-h: 121;
+  --color-mint-base-h: 149;
+  --color-aqua-base-h: 180;
+  --color-blue-base-h: 232;
+  --color-purple-base-h: 255;
+  --color-pink-base-h: 303;
+  --color-grey-base-h: 233;
+}
 .theme-light.pt-color-scheme-periwinkle-lt {
   --color-red-base-s: 70%;
   --color-orange-base-s: 66%;
@@ -795,6 +807,77 @@ body.theme-dark.pt-color-scheme-indigo-dt {
     hsl(225 35% 7% / 4%) 0 8px 16px;
 }
 .theme-dark.pt-color-scheme-indigo-dt {
+  --color-red-base-s: 65%;
+  --color-orange-base-s: 62%;
+  --color-yellow-base-s: 69%;
+  --color-green-base-s: 28%;
+  --color-mint-base-s: 33%;
+  --color-aqua-base-s: 38%;
+  --color-blue-base-s: 31%;
+  --color-purple-base-s: 36%;
+  --color-pink-base-s: 41%;
+  --color-grey-base-s: 5%;
+  --color-red-base-l: 21%;
+  --color-orange-base-l: 23%;
+  --color-yellow-base-l: 19%;
+  --color-green-base-l: 23%;
+  --color-mint-base-l: 25%;
+  --color-aqua-base-l: 20%;
+  --color-blue-base-l: 24%;
+  --color-purple-base-l: 22%;
+  --color-pink-base-l: 22%;
+  --color-grey-base-l: 23%;
+  --color-red-tint-l: 36%;
+  --color-orange-tint-l: 40%;
+  --color-yellow-tint-l: 32%;
+  --color-green-tint-l: 36%;
+  --color-mint-tint-l: 37%;
+  --color-aqua-tint-l: 33%;
+  --color-blue-tint-l: 45%;
+  --color-purple-tint-l: 45%;
+  --color-pink-tint-l: 40%;
+  --color-grey-tint-l: 40%;
+  --color-red-text-s: 77%;
+  --color-orange-text-s: 78%;
+  --color-yellow-text-s: 65%;
+  --color-green-text-s: 43%;
+  --color-mint-text-s: 60%;
+  --color-aqua-text-s: 45%;
+  --color-blue-text-s: 74%;
+  --color-purple-text-s: 60%;
+  --color-pink-text-s: 62%;
+  --color-grey-text-s: 5%;
+  --color-red-text-l: 70%;
+  --color-orange-text-l: 69%;
+  --color-yellow-text-l: 61%;
+  --color-green-text-l: 59%;
+  --color-mint-text-l: 57%;
+  --color-aqua-text-l: 49%;
+  --color-blue-text-l: 73%;
+  --color-purple-text-l: 71%;
+  --color-pink-text-l: 68%;
+  --color-grey-text-l: 69%;
+  --text-normal: hsl(245 30% 85%);
+  --text-muted: hsl(245 30% 75%);
+  --text-faint: hsl(245 30% 65%);
+  --background-primary: hsl(245 30% 16%);
+  --background-primary-alt: hsl(245 30% 20%);
+  --background-secondary: hsl(245 30% 11.2%);
+  --background-secondary-blur: hsl(245 30% 11.2% / 75%);
+  --background-secondary-alt: hsl(245 30% 8.5%);
+  --background-tertiary: hsl(245 30% 9%);
+  --background-color-dt: hsl(245 30% 8%);
+  --vertical-lines-color-file-explorer: hsl(245 30% 17%);
+  --vertical-lines-color-outline: hsl(245 30% 17%);
+  --vertical-lines-color-style-settings: hsl(245 30% 15%);
+  --drop-shadow: hsl(245 30% 7% / 10%) 0 1px 2px 0;
+  --drop-shadow-popup:
+    hsl(245 30% 7% / 10%) 0 1px 2px,
+    hsl(245 30% 7% / 10%) 0 2px 4px,
+    hsl(245 30% 7% / 10%) 0 4px 8px,
+    hsl(245 30% 7% / 10%) 0 8px 16px;
+}
+.theme-dark.pt-color-scheme-blueDolphin-dt {
   --color-red-base-s: 65%;
   --color-orange-base-s: 62%;
   --color-yellow-base-s: 69%;
@@ -6510,6 +6593,9 @@ progress[value="100"]::-webkit-progress-value {
 .theme-dark.pt-color-scheme-pine-dt audio {
   filter: invert(100%) saturate(1850%) hue-rotate(125deg) brightness(95%);
 }
+.theme-dark.pt-color-scheme-blueDolphin-dt audio {
+  filter: invert(100%) saturate(1850%) hue-rotate(125deg) brightness(95%);
+}
 .theme-light .side-dock-ribbon-action.is-active svg.microphone-filled,
 .theme-dark .side-dock-ribbon-action.is-active svg.microphone-filled {
   color: var(--color-red-text);
@@ -11825,6 +11911,9 @@ settings:
             -
                 label: Pine
                 value: pt-color-scheme-pine-dt
+            -
+                label: BlueDolphin
+                value: pt-color-scheme-blueDolphin-dt
     -
         id: accent-style-dt
         title: Accent Style
