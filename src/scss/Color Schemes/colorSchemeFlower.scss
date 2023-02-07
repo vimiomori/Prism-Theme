@@ -133,17 +133,16 @@
 	--color-purple-text-hsl: 264, 34%, 65%;
 	--color-pink-text-hsl: 330, 37%, 63%;
 
-	--text-normal: hsl(245, 30%, 85%);
-	--text-muted: hsl(245, 30%, 70%);
-	--text-faint: hsl(245, 30%, 65%);
+  --text-normal: hsl(192, 100%, 82%);
+  --text-muted: hsl(192, 100%, 70%);
+  --text-faint: hsl(192, 100%, 62%);
+  --background-primary: hsl(193, 29%, 16%);
+  --background-primary-alt: hsl(194, 100%, 27%);
+  --background-secondary: hsl(203, 100%, 11%);
+  --background-secondary-blur: hsla(193, 100%, 11%, 80%);
+  --background-secondary-alt: hsl(203, 100%, 12%);
 
-	--background-primary: hsl(245, 30%, 16%);
-	--background-primary-alt: hsl(245, 30%, 25%);
-	--background-secondary: hsl(245, 30%, 12%);
-	--background-secondary-blur: hsla(245, 30%, 12%, 80%);
-	--background-secondary-alt: hsl(245, 30%, 8.5%);
-
-	--shadow-s: hsla(245, 30%, 7%, 10%) 0 1px 2px 0;
-	--shadow-l: hsla(245, 30%, 7%, 10%) 0 1px 2px, hsla(245, 30%, 7%, 10%) 0 2px 4px, hsla(245, 30%, 7%, 10%) 0 4px 8px, hsla(245, 30%, 7%, 10%) 0 8px 16px;
+	--shadow-s: hsla(207, 31%, 7%, 0.1) 0 1px 2px 0;
+	--shadow-l: hsla(207, 30%, 7%, 10%) 0 1px 2px, hsla(207, 30%, 7%, 10%) 0 2px 4px, hsla(207, 30%, 7%, 10%) 0 4px 8px, hsla(207, 30%, 7%, 10%) 0 8px 16px;
 }
 /* #endregion */
